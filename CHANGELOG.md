@@ -3,6 +3,8 @@
 
 1. [](#new)
     * Dark version
+    * Option to hide history
+    * LangSwitcher support
 
 # v1.6.5
 ## 03/21/2021
