@@ -8,33 +8,10 @@
    inkscape:version="1.1 (c68e22c387, 2021-05-23)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs8">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient3990">
-      <stop
-         style="stop-color:#1694ca;stop-opacity:1;"
-         offset="0"
-         id="stop3986" />
-      <stop
-         style="stop-color:#1669ca;stop-opacity:1"
-         offset="1"
-         id="stop3988" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3990"
-       id="linearGradient3992"
-       x1="791.59039"
-       y1="1004.2564"
-       x2="64.137375"
-       y2="43.883427"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
+     id="defs8" />
   <sodipodi:namedview
      id="namedview6"
      pagecolor="#505050"
@@ -46,7 +23,7 @@
      showgrid="false"
      inkscape:zoom="0.59247814"
      inkscape:cx="416.89302"
-     inkscape:cy="503.81605"
+     inkscape:cy="503.81606"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
@@ -56,5 +33,5 @@
   <path
      d="M128 768h256v64H128v-64z m320-384H128v64h320v-64z m128 192V448L384 640l192 192V704h320V576H576z m-288-64H128v64h160v-64zM128 704h160v-64H128v64z m576 64h64v128c-1 18-7 33-19 45s-27 18-45 19H64c-35 0-64-29-64-64V192c0-35 29-64 64-64h192C256 57 313 0 384 0s128 57 128 128h192c35 0 64 29 64 64v320h-64V320H64v576h640V768zM128 256h512c0-35-29-64-64-64h-64c-35 0-64-29-64-64s-29-64-64-64-64 29-64 64-29 64-64 64h-64c-35 0-64 29-64 64z"
      id="path2"
-     style="fill:url(#linearGradient3992);fill-opacity:1" />
+     style="fill:#ffffff;fill-opacity:1" />
 </svg>

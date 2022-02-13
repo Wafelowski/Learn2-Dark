@@ -3,3 +3,60 @@
 Put your custom CSS in this file.
 ===============================================================================================================================
 */
+
+
+
+
+/* 
+================
+Markdown Notices 
+================
+*/
+.notices.yellow {
+    background: #362610 !important;
+}
+
+.notices.red {
+    background: #341211 !important;
+}
+
+.notices.blue {
+    background: #0b252c !important;
+}
+
+.notices.green {
+    background: #143214 !important;
+}
+
+/* 
+============
+Shortcode UI 
+============
+*/
+
+.accordion-wrapper label {
+    color: #b2aca2 !important;
+    background: #1a1a1a !important;
+    border: 1px solid #333 !important;
+}
+
+.accordion-wrapper article {
+    background: #1a1a1a !important;
+    border: 1px solid #333 !important;
+
+}
+
+.accordion-wrapper>div:last-child label, .accordion-wrapper>div:last-child input:checked~article {
+    border-bottom: 1px solid #333 !important;
+}
+
+#tooltip.white {
+    background: #2c2c2c !important;
+    color: #fff !important;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+#tooltip.white .tooltip-header {
+    background: #1d1d1d !important;
+    color: #fff !important;
+}

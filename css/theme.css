@@ -16,8 +16,8 @@
     margin: 2px 0 -2px 0; }
 
 body {
-  background: #fff;
-  color: #555;
+  background: #181a1b;
+  color: #b2aca2;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -154,8 +154,8 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
       background: #293038;
       color: #d9d9d9 !important; }
     #sidebar h5.active a {
-      background: #fff;
-      color: #555 !important; }
+      background: #1694ca;
+      color: #fff !important; }
     #sidebar h5.active i {
       color: #555 !important; }
   #sidebar h5 + ul.topics {
@@ -199,8 +199,8 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
         padding-left: 1rem;
         padding-right: 1rem; }
     #sidebar ul li.active > a {
-      background: #fff;
-      color: #555 !important;
+      background: #1380ae;
+      color: #fff !important;
       margin-left: -1rem;
       margin-right: -1rem;
       padding-left: 1rem;
@@ -297,7 +297,7 @@ textarea, input[type="email"], input[type="number"], input[type="password"], inp
         #body .nav > i {
           display: inline-block; } }
     #body .nav:hover {
-      background: #F6F6F6; }
+      background: #1380ae; }
     #body .nav.nav-pref {
       left: 0; }
     #body .nav.nav-next {
@@ -356,7 +356,7 @@ h3 {
   letter-spacing: -1px; }
 
 blockquote {
-  border-left: 10px solid #F0F2F4; }
+  border-left: 10px solid #2c2c2c; }
   blockquote p {
     font-size: 1.1rem;
     color: #999; }
@@ -380,7 +380,7 @@ blockquote > blockquote > blockquote {
     font-size: 1rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
-    color: #666; }
+    color: #fff; }
     blockquote > blockquote > blockquote p:first-child:before {
       position: absolute;
       top: 2px;
@@ -397,24 +397,24 @@ blockquote > blockquote > blockquote {
       content: 'Info'; }
   blockquote > blockquote > blockquote > p {
     margin-left: -71px;
-    border-top: 30px solid #F0B37E;
-    background: #FFF2DB; }
+    border-top: 30px solid #df8a13;
+    background: #362610; }
   blockquote > blockquote > blockquote > blockquote > p {
     margin-left: -94px;
     border-top: 30px solid rgba(217, 83, 79, 0.8);
-    background: #FAE2E2; }
+    background: #341211; }
     blockquote > blockquote > blockquote > blockquote > p:first-child:after {
       content: 'Warning'; }
   blockquote > blockquote > blockquote > blockquote > blockquote > p {
     margin-left: -118px;
-    border-top: 30px solid #6AB0DE;
-    background: #E7F2FA; }
+    border-top: 30px solid #28a1c5;
+    background: #0b252c; }
     blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:after {
       content: 'Note'; }
   blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p {
     margin-left: -142px;
     border-top: 30px solid rgba(92, 184, 92, 0.8);
-    background: #E6F9E6; }
+    background: #143214; }
     blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:after {
       content: 'Tip'; }
 
@@ -425,8 +425,8 @@ samp {
   font-family: "Inconsolata", monospace; }
 
 code {
-  background: #f9f2f4;
-  color: #9c1d3d;
+  background: #1694ca;
+  color: #eee;
   padding: .2rem .4rem;
   border-radius: 3px; }
 
@@ -444,7 +444,7 @@ pre {
     font-size: 1rem; }
 
 hr {
-  border-bottom: 4px solid #F0F2F4; }
+  border-bottom: 4px solid #1694ca; }
 
 .page-title {
   margin-top: -25px;
@@ -477,7 +477,7 @@ table {
   table-layout: auto; }
 
 th {
-  background: #f7f7f7;
+  background: #1a1a1a;
   padding: 0.5rem; }
 
 td {
@@ -867,7 +867,7 @@ td {
     background: #34495E; }
 
 #top-bar {
-  background: #F6F6F6;
+  background: #181a1b;
   border-radius: 2px;
   margin: 0rem -1rem 2rem;
   padding: 0 1rem;
@@ -925,27 +925,27 @@ td {
   background-size: 16px 16px;
   background-repeat: no-repeat;
   width: 27px;
-  height: 1.45rem;
-  top: -1px;
+  height: 1.5rem;
+  top: 2px;
   display: inline-block;
-  vertical-align: middle;
+  vertical-align: top;
   position: relative;
   color: #3c3c3c;
-  background-color: #f9f2f4;
+  background-color: #1694ca;
   margin-left: -.2rem;
   cursor: pointer;
   border-radius: 0 2px 2px 0; }
   .copy-to-clipboard:hover {
-    background-color: #f1e1e5; }
+    background-color: #1380ae; }
   pre .copy-to-clipboard {
     position: absolute;
     right: 4px;
     top: 4px;
-    background-color: #eee;
-    border-color: #ddd;
+    background-color: #1694ca;
+    border-color: #04212e;
     border-radius: 2px; }
     pre .copy-to-clipboard:hover {
-      background-color: #d9d9d9; }
+      background-color: #1380ae; }
 
 .parent-element {
   -webkit-transform-style: preserve-3d;
