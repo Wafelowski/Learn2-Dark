@@ -1,16 +1,16 @@
 window.nextgenEditor.addHook('hookInit', () => {
-    window.nextgenEditor.addButtonGroup('learn2-with-git-sync', {
+    window.nextgenEditor.addButtonGroup('learn2-dark', {
         label: 'Learn2 with Git Sync',
     });
 });
 
 window.nextgenEditor.addShortcode('h5p', {
     type: 'block',
-    plugin: 'learn2-with-git-sync',
+    plugin: 'learn2-dark',
     title: 'H5P',
     button: {
         label: 'H5P',
-        group: 'learn2-with-git-sync',
+        group: 'learn2-dark',
     },
     attributes: {
         url: {

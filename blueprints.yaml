@@ -5,12 +5,12 @@ version: 1.6.6
 description: "A customized version of the Learn2 theme for use with the Learn2 with Git Sync skeleton package. Includes selectable visual styles, but in Dark!"
 icon: book
 author:
- name: Wafel, Learn2 by Hibbitts Design
+ name: Dark by Wafel, Learn2 by Hibbitts Design
  email: admin@wafelowski.pl
  url: http://wafelowski.pl/
 homepage: https://github.com/HeavyWolfPL/Learn2-Dark
 demo: http://wafelowski.pl/grav
-keywords: learn2, gitsync
+keywords: learn2, gitsync, dark, darktheme
 bugs: https://github.com/HeavyWolfPL/Learn2-Dark/issues
 license: MIT
 
@@ -59,7 +59,7 @@ form:
         type: text
         label: Custom Git Repository Tree URL
         help: Enter the URL that leads to the pages folder of your Git Repository.
-        description: "URL path to the pages folder, but with '/pages' and everything following it removed. For example, 'https://github.com/paulhibbitts/demo-grav-learn2-with-git-sync/tree/master'."
+        description: "URL path to the pages folder, but with '/pages' and everything following it removed. For example, 'https://github.com/HeavyWolfPL/Learn2-Dark/tree/master'."
 
     siteandpageoptions:
       type: section

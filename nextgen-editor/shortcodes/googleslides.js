@@ -1,16 +1,16 @@
 window.nextgenEditor.addHook('hookInit', () => {
-    window.nextgenEditor.addButtonGroup('learn2-with-git-sync', {
+    window.nextgenEditor.addButtonGroup('learn2-dark', {
         label: 'Learn2 with Git Sync',
     });
 });
 
 window.nextgenEditor.addShortcode('googleslides', {
     type: 'block',
-    plugin: 'learn2-with-git-sync',
+    plugin: 'learn2-dark',
     title: 'Google Slides',
     button: {
         label: 'Google Slides',
-        group: 'learn2-with-git-sync',
+        group: 'learn2-dark',
     },
     attributes: {
         url: {
