@@ -2,6 +2,12 @@
 
 Learn2, but Dark! is a customized version of the default [Learn2 with GitSync](https://github.com/hibbitts-design/grav-theme-learn2-dark) theme. Includes selectable visual styles.
 
+#### Differences between Learn2 with GitSync and Learn2, but Dark!
+- Darkened Notices
+- Darkened Shortcode UI
+- Option to hide History
+- LangSwitcher support
+
 ![Learn2 with Git Sync](screenshot.jpg)
 
 # Installation

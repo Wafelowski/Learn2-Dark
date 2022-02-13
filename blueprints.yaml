@@ -89,6 +89,17 @@ form:
         validate:
             type: bool
 
+    hide_history:
+        type: toggle
+        label: 'Hide History'
+        highlight: 1
+        default: 0
+        options:
+            1: 'Yes'
+            0: 'No'
+        validate:
+            type: bool
+
     style:
       type: select
       size: medium

@@ -11,7 +11,7 @@
         {% set current_page = p.active ? ' active' : '' %}
         <li class="dd-item{{ parent_page }}{{ current_page }}" data-nav-id="{{ p.route }}">
             <a href="{{ p.url }}" {% if p.header.class %}class="{{ p.header.class }}"{% endif %}>
-                <i class="fa fa-check read-icon"></i>
+                {% if (theme_config.hide_history) %} <i class="fa fa-check read-icon"></i> {% endif %}
                 <span><b>{% if data_level == 0 %}{{ loop.index }}. {% endif %}</b>{{ p.menu }}</span>
             </a>
             {% if p.children.count > 0 %}
