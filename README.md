@@ -93,6 +93,8 @@ Once this is done, you should be able to see the new theme on the frontend. Keep
 
 The default search route for the TNTSearch plugin (used for the 'Advanced Search' feature) is set to `/tntsearch`
 
-
-### Notice
-This theme was only modified to include dark colors, I'm not the author of the original Learn2 or Learn2 with Git Sync themes.
+---
+## Notice
+This theme was only modified to include dark colors and improvements, I'm not the author of the original Learn2 or Learn2 with Git Sync themes.
+<br>You can find the Learn2 with Git Sync by Hibbitts Design [here](https://github.com/hibbitts-design/grav-theme-learn2-dark).
+<br>The original Learn2 by Grav Team can be found [here](https://github.com/getgrav/grav-theme-learn2) instead.
